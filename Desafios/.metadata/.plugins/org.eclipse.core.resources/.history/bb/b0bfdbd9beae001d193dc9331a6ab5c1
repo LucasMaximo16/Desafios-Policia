@@ -1,0 +1,25 @@
+public class Multiplos {
+    private int x = 3;
+    private int y = 5;
+    private int somaTotal3;
+    private int somaTotal5;
+    private int resultado ;
+
+    public void main(String[] args) {
+        for(int i = 1; i <=1000 ; i++){
+            if(i % x == 0 ){
+                this.somaTotal3 += i;
+            }
+        }
+
+        for(int i = 1; i <=1000 ; i++){
+            if(i % y == 0 ){
+                somaTotal5 += i;
+            }
+        }
+        
+        resultado = somaTotal3 + somaTotal5;
+        
+        System.out.println("A SOMA DOS MULTIPLOS DE 3 E 5 SÃO : " + resultado);
+    }
+}

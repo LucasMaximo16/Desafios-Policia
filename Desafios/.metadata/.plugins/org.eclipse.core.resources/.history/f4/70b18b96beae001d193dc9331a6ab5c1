@@ -1,0 +1,63 @@
+
+public class Multiplos {
+	private int num_3 = 3;
+	private int num_5 = 5;
+	
+	private int somaMultiplo3;
+	private int somaMultiplo5;
+	
+	private int resultado;
+
+
+	public Multiplos() {
+		super();
+	}
+
+	public Multiplos(int num_3, int num_5, int somaMultiplo3, int somaMultiplo5, int resultado) {
+		super();
+		this.num_3 = num_3;
+		this.num_5 = num_5;
+		this.somaMultiplo3 = somaMultiplo3;
+		this.somaMultiplo5 = somaMultiplo5;
+		this.resultado = resultado;
+	}
+
+	public int getNum_3() {
+		return num_3;
+	}
+	public void setNum_3(int num_3) {
+		this.num_3 = num_3;
+	}
+
+	public int getNum_5() {
+		return num_5;
+	}
+
+	public void setNum_5(int num_5) {
+		this.num_5 = num_5;
+	}
+
+	public int getSomaMultiplo3() {
+		return somaMultiplo3;
+	}
+
+	public void setSomaMultiplo3(int somaMultiplo3) {
+		this.somaMultiplo3 = somaMultiplo3;
+	}
+
+	public int getSomaMultiplo5() {
+		return somaMultiplo5;
+	}
+
+	public void setSomaMultiplo5(int somaMultiplo5) {
+		this.somaMultiplo5 = somaMultiplo5;
+	}
+
+	public int getResultado() {
+		return resultado;
+	}
+
+	public void setResultado(int resultado) {
+		this.resultado = resultado;
+	}
+}

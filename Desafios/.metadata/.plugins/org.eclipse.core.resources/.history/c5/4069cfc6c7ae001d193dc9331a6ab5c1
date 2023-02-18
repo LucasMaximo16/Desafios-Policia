@@ -1,0 +1,28 @@
+
+public class SequenciaFibonacci {
+
+	public static void main(String[] args) {
+		int primeiroTermo = 1;
+		int segundoTermo = 0;
+		int auxiliar = 0;
+		
+		int soma = 0;
+		
+		for(int i = 0 ; i < 10 ; i++ ) {
+				auxiliar = primeiroTermo;
+				primeiroTermo = primeiroTermo + segundoTermo;
+				
+				if(primeiroTermo % 2 == 0) {
+					soma += primeiroTermo; 
+					System.out.println(soma);
+				}
+				
+				segundoTermo = auxiliar;				
+				
+			
+			System.out.println("Sequencia de Fibonacci : " + primeiroTermo);
+		}
+		
+		
+	}
+}

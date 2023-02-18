@@ -1,0 +1,10 @@
+
+public class CalculaFatorPrimo {
+	
+	public static long maiorFatorPrimo(long x) {
+		
+		for(long i = 2; i < Math.sqrt(x))
+		
+		return x;
+	}
+}

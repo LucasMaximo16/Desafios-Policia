@@ -1,0 +1,19 @@
+
+public class MaiorFatorPrimo {
+	
+	public static void main(String[] args) {
+		long r = maiorFatorPrimo2(18l);
+		
+		System.out.println(r);
+	}
+	
+	private static long maiorFatorPrimo2(long a) {
+		long r = a;	
+		for(long i = 2; i < Math.sqrt(a); i++){
+			if(a % i == 0) {
+				return maiorFatorPrimo2(a/i);
+			}
+		}
+		return r;
+	}
+}
